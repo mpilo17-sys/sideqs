@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>BESUTFU BEEF</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/produce.css'>
+    <script src="assets/js/produce.js"></script>
+    <!-- Bootstrap CSS -->
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+    <!-- FontAwesome CSS (for the menu icon) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css">
+    <style>
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+          <img src="assets/img/logo.png" alt="Logo">
+          BESUTHU BEEF<sup>©</sup>
+      </a>
+      <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+      >
+          <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">
+                  <i class="fas fa-house"></i> Home
+              </a>
+              <a class="nav-link" style="margin-left: auto;">
+                <i class="bx bx-shopping-bag cart-icon" id="cart-icon"></i>
+              </a>
+          </div>
+      </div>
+  </div>
+</nav>    <!-- end of nav -->
+
+<!-- Main content -->
+<div class="content">
+    <div class="container">
+      <div class="header-section">
+        <h2 id="besuthu-beef">Besutfu Beef</h2>
+        <img src="assets/img/logo.png" alt="Beefy Bliss Logo"><br/><br/>
+      </div>
+<hr/>
+    <div class="products">
+      <h3>Our Products</h3>
+      <p>**Experience the pinnacle of flavor with Beefy Bliss Burgers—juicy, expertly seasoned patties, artisanal buns, and gourmet toppings in every bite.**</p>
+      
+      <div class="nav container">
+        
+        <div id="floating-button" class="btn btn-primary">
+          <i class="fa fa-shopping-cart"></i>
+        </div>
+        
+        <div class="cart">
+            <h2 class="cart-title">Your Cart</h2>
+            <div class="cart-content">
+                <!-- <div class="cart-box"> -->
+                    <!-- <img src="path_to_image" alt="Product Image" class="cart-img">
+                    <div class="details">
+                        <div class="cart-product-title">Earbuds</div>
+                        <div class="cart-price">$25</div>
+                        <input type="number" value="1" class="cart-quantity">
+                    </div> -->
+                    <!-- <i class="bx bxs-trash-alt cart-remove"></i>
+                </div> -->
+            </div>
+            <div class="total">
+                <div class="total-title">Total</div>
+                <div class="total-price">$0</div>
+            </div>
+            <!-- Buy -->
+            <button type="button" class="btn-buy">Buy Now</button>
+            <!-- Close cart -->
+            <button type="button" class="btn-buy" id="close-cart"><i class="bx bx-x" id="close-cart"></i></button>
+            
+        </div>
+    </div>
+      
+      
+      <section class="shop container">
+        <h2 class="section-title">Shop Products</h2>
+        <div class="content">
+            <div class="product-box">
+                <img src="assets/img/brisket.jpg" alt="Shirt" class="image">
+                <h2 class="title">brisket</h2>
+                <span class="price">$20</span>
+                <i class="bx bx-shopping-bag add-cart"></i>
+            </div>
+            <div class="product-box">
+                <img src="assets/img/rib.jpg" alt="Shirt" class="image">
+                <h2 class="title">rib</h2>
+                <span class="price">$20</span>
+                <i class="bx bx-shopping-bag add-cart"></i>
+            </div>
+            <div class="product-box">
+                <img src="assets/img/ribeye.jpg" alt="Shirt" class="image">
+                <h2 class="title">ribeye</h2>
+                <span class="price">$20</span>
+                <i class="bx bx-shopping-bag add-cart"></i>
+            </div>
+            <div class="product-box">
+              <img src="assets/img/sirloin.jpg" alt="Shirt" class="image">
+              <h2 class="title">sirloin</h2>
+              <span class="price">$20</span>
+              <i class="bx bx-shopping-bag add-cart"></i>
+          </div>
+          <div class="product-box">
+            <img src="assets/img/buns.jpeg" alt="Shirt" class="image">
+            <h2 class="title">burger buns</h2>
+            <span class="price">$20</span>
+            <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <div class="product-box">
+          <img src="assets/img/cow.jpeg" alt="Shirt" class="image">
+          <h2 class="title">cow</h2>
+          <span class="price">$20</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+      </div>
+        </div>
+    </section>
+    </div>
+  <hr/>
+  
+
+<!-- Footer -->
+<footer>
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
+      </div>
+      <!-- Left -->
+  
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        
+      </div>
+      <!-- Right -->
+    </section>
+  
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <div class="row mt-3">
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>Besuthu Beef
+            </h6>
+            <p>
+              Elevate your taste with Besutfu Beef! From vitamin-rich nutrition to cutting-edge medical protocols, we craft premium beef with love and precision. Join us on a journey 
+              of flavour, sustainability and culinary excellence. #BesutfuBeef#BeefBullocks
+            </p>
+          </div>
+  
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">
+              Products
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Beef</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">BEEFY BLISS BURGERS</a>
+            </p>
+          </div>
+  
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">
+              Useful links
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Pricing</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Orders</a>
+            </p>
+            
+          </div>
+  
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3"></i>ESWATINI</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              besutfubeef@gmail.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> + 268 7811 4244</p>
+            <!-- <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p> -->
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2021 Copyright:
+      <a class="text-reset fw-bold" href="">BESUTHU BEEF</a>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-replace-svg="nest"></script>
+
+</body>
+</html>
